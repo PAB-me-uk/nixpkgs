@@ -869,6 +869,8 @@ self: super: with self; {
 
   awslambdaric = callPackage ../development/python-modules/awslambdaric { };
 
+  awsume = callPackage ../development/python-modules/awsume { };
+
   awswrangler = callPackage ../development/python-modules/awswrangler { };
 
   axis = callPackage ../development/python-modules/axis { };
